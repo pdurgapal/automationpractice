@@ -19,12 +19,13 @@ public class DressesTest extends TestBase {
 		WebDriver driver; 
 	
 		
-		@Test
+		@Test(priority=1)
 		public void verify_DressesPage() throws InterruptedException{
 			dressespage=homePage.clickOnDressestab();
 			dressespage.clickOnCasualDressestab();
 			dressespage.clickOnPrintDressetab();
 			Thread.sleep(10000);
+			System.out.println("test method 2");
 			}
 		
 	

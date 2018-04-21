@@ -16,9 +16,11 @@ public class SearchPage extends BasePage{
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void printSummerDressClick() 
+	public void printSummerDressClick(String searchkey) 
 	{
-		driver.findElement(By.xpath("(//img[@title='Printed Summer Dress'])[1]")).click();	
+		//driver.findElement(By.xpath("(//img[@title='Printed Summer Dress'])[1]")).click();
+		driver.findElement(By.xpath("(//img[@title='Printed Summer Dress'])[1]"));
+		
 	}
 	
 	//public void FedalsleeveTopClick() {

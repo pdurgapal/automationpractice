@@ -22,20 +22,15 @@ public class WomenTests extends TestBase {
 		WebDriver driver; 
 	
 		
-		@Test
+		@Test(priority=1)
 		public void verify_WomenPage() throws InterruptedException{
 			womenPage=homePage.clickOnWomentab();
 			womenPage.topsClick();
 			womenPage.FedalsleeveTopClick();
 			womenPage.AddToCartClick();
 			Thread.sleep(10000);
+			System.out.println("test method 1");
 			}
-		
-		//@Test
-		
-		//public void verify_WomenTopPage() throws InterruptedException{
-		//	womenPage.FedalsleeveTopClick();
-		//}
 		
 	
 		

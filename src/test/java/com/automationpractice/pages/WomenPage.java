@@ -19,20 +19,20 @@ public class WomenPage extends BasePage{
 	}
 	
 	public void FedalsleeveTopClick() {
-		//driver.findElement(By.xpath("//img[@title='Faded Short Sleeve T-shirts']")).click();
-		WebDriverWait wait = new WebDriverWait(driver,20);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@title='Faded Short Sleeve T-shirts']"))).click();;
+		driver.findElement(By.linkText("Faded Short Sleeve T-shirts")).click();
+		
+		
 		
 	}
 	
 	public void AddToCartClick() {
-		//driver.findElement(By.xpath("//span[text()='Add to cart']")).click();
-		//driver.findElement(By.xpath("//p[@id='add_to_cart']/button")).click();
-		//WebDriverWait wait = new WebDriverWait(driver,20);
-		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='add_to_cart']/button/span")));
-		//driver.findElement(By.xpath("//*[@id='add_to_cart']/button/span")).click();
-		WebElement fr = driver.findElement(By.id("add_to_cart"));
+		WebDriverWait wait = new WebDriverWait(driver,20);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@id='add_to_cart']"))).click();;
+		
+		//driver.findElement(By.xpath("//p[@id='add_to_cart']")).click();
+		
+		  
 
-		driver.switchTo().frame(fr);
+		
 }
 }

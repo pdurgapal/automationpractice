@@ -50,11 +50,12 @@ public class HomePage extends BasePage{
 	}
 	
 	public SearchPage clickOnSearchtab(){
-		tabSearch.sendKeys("summer dress");
-		//tabSearch.click();
+		tabSearch.sendKeys("summerdress");
+	    tabSearch.click();
 		return new SearchPage(getDriver());
 		
 	}
+
 	
 	public SearchPage clickOnSearchtabBox(){
 	   tabSearchBox.click();

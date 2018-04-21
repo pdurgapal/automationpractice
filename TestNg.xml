@@ -3,14 +3,15 @@
 <suite name="automationpractice" verbose="1" >
   <test name="Functional tests" >
     <classes>
+       <class name="com.automationpractice.test.HomeTests" />
        <class name="com.automationpractice.test.WomenTests" />
     </classes>
   </test>
  
-  <test name="Regression1">
+  <!--  <test name="Regression1">
     <classes>
       <class name="test.sample.ParameterSample"/>
       <class name="test.sample.ParameterTest"/>
     </classes>
-  </test>
+  </test> -->
 </suite>

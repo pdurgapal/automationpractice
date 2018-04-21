@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [automationpractice]" guice-stage="DEVELOPMENT">
+  <test name="Functional tests(failed)">
+    <classes>
+      <class name="com.automationpractice.test.WomenTests">
+        <methods>
+          <include name="beforeallmethod"/>
+          <include name="setup"/>
+          <include name="beforeAllClasses"/>
+          <include name="verify_WomenPage"/>
+        </methods>
+      </class> <!-- com.automationpractice.test.WomenTests -->
+    </classes>
+  </test> <!-- Functional tests(failed) -->
+</suite> <!-- Failed suite [automationpractice] -->
